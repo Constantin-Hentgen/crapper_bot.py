@@ -92,4 +92,4 @@ async def calcule(ctx, *, question):
         
     await ctx.send(f'Euhhhhhh {question} = {result} ?')
 
-client.run('NzAxNzUyOTU4ODY1Mzc1MjUy.Xp268g.QIreig0hZzRCHcsK_59jw5rG-z4')
+client.run('TOKEN')

@@ -16,7 +16,7 @@ async def change_status():
     await client.change_presence(activity=discord.Game(next(status)))
 
 def is_it_my_father(ctx):
-    return ctx.author.id == 357214102361341967
+    return ctx.author.id == myID
 
 @client.command()
 @commands.check(is_it_my_father)
